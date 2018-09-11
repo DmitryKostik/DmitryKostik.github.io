@@ -1,0 +1,57 @@
+/* пишем стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: auto;
+	height: 100%;
+	background-color: #fff;
+}
+
+h1, h2, .copy {
+	font-family: "RedRingLight", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+button {
+	font-family: "ProximaNovaLight", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+input, textarea, button {
+	outline: none;
+}
+/* end reset */
+
+/*  пишем код тут */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

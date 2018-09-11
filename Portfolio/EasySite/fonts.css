@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "RedRingRegular";
+    src: url(./fonts/RedRing-Regular.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RedRingLight";
+    src: url(./fonts/RedRing-Light.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RedRingBlack";
+    src: url(./fonts/RedRing-Black.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ProximaNovaThin";
+    src: url(./fonts/ProximaNovaThin.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url(./fonts/ProximaNovaLight.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
