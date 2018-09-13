@@ -22,6 +22,10 @@ input, textarea, button {
 	outline: none;
 }
 
+.clear{
+	clear: both;
+}
+
 .container{
 
 }
@@ -64,4 +68,30 @@ header{
 .banner_image{
 	text-align: center;
 	padding-top: 185px;
+}
+
+.definition{
+	padding-top: 100px;
+}
+
+.definition_item{
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.definition_item h3{
+	text-transform: uppercase;
+	font-family: ProximaNovaThin, sans-serif;
+	font-weight: 300;
+	font-size: 24;
+}
+
+.definition_item p{
+	text-align: justify;
+	width: 75%;
+	margin: 0 auto;
+	font-family: ProximaNovaLight;
 }
