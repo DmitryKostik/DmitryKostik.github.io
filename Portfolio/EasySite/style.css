@@ -1,4 +1,4 @@
-
+/* пишем стили */
 * {
 	margin: 0;
 	padding: 0;
@@ -11,87 +11,69 @@ body {
 h1, h2, .copy {
 	font-family: "RedRingLight", sans-serif;
 	font-weight: 100;
-	font-style: normal;
 }
 button {
 	font-family: "ProximaNovaLight", sans-serif;
 	font-weight: 400;
 }
-
-input, textarea, button {
-	outline: none;
-}
-
 .clear{
 	clear: both;
 }
-
-.container{
-
+input, textarea, button {
+	outline: none;
 }
-
 header{
 	position: relative;
 	padding-top: 15px;
 	height: 100px;
 	z-index: 1;
-}
-
+}/* end reset */
 .logo{
 	text-align: center;
 }
-
 .banner{
 	position: relative;
 	height: 650px;
-	background: linear-gradient(0deg, #ffa8a8, #fcff00);
+  background: linear-gradient(0deg, #ffa8a8, #fcff00);
 	z-index: 0;
-	padding-top: 100px;
-	overflow: hidden;
 }
-
-.banner_text{
-	margin: 0 auto;
-}
-
 .banner_text h1{
 	font-size: 40px;
+}
+.banner_text {
+	margin: auto;
 	text-align: center;
+	padding-top: 100px;
 	text-transform: uppercase;
 }
-
 .banner_text span{
-	font-family: RedRingBlack, sans-serif;
+	font-family: "RedRingBlack",sans-serif;
 	color: white;
 }
-
 .banner_image{
 	text-align: center;
-	padding-top: 185px;
+	padding-top: 180px;
 }
-
 .definition{
-	padding-top: 100px;
+padding: 100px 0px;
 }
-
 .definition_item{
 	display: inline-block;
 	float: left;
 	width: 33.33%;
-	padding: 0 30px;
 	text-align: center;
+	padding: 0 30px;
 }
-
 .definition_item h3{
-	text-transform: uppercase;
-	font-family: ProximaNovaThin, sans-serif;
-	font-weight: 300;
-	font-size: 24;
+font-family: "ProximaNovaThin",sans-serif;
+font-weight: 300px;
+font-size: 24;
+text-transform: uppercase;
 }
-
 .definition_item p{
-	text-align: justify;
 	width: 75%;
-	margin: 0 auto;
-	font-family: ProximaNovaLight;
+  margin: 0 auto;
+  font-family: "ProximaNovaLight", sans-serif;
+  font-weight: 400;
+  text-align: justify;
 }
