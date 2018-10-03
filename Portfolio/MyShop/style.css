@@ -1,0 +1,14 @@
+header{
+  margin-bottom: 15px;
+}
+
+footer{
+  margin-top: 15px;
+}
+
+.carousel-control-prev{
+  background: linear-gradient(90deg, grey, white);
+}
+.carousel-control-next{
+  background: linear-gradient(90deg, white, grey);
+}
