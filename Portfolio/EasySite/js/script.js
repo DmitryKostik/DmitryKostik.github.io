@@ -10,6 +10,14 @@ function tick()
   var H = 23-d.getHours();
   var M = 59 - d.getMinutes();
   var S = 59 - d.getSeconds();
+
+  if (H<10)
+  {
+    h.innerHTML = H+":";
+  }
+  else {
+    h.innerHTML = H+":";
+  }
   h.innerHTML = H+":";
   m.innerHTML = M+":";
   s.innerHTML = S;
