@@ -378,7 +378,8 @@ body {
 }
 
 .social:hover{
-  background: #18bc9c;
+  color: #18bc9c;
+  border-color: #18bc9c;
 
 }
 
