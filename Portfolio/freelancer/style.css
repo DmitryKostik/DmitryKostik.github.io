@@ -35,6 +35,10 @@ body {
   vertical-align: middle;
 }
 
+.navbarmainlink:hover{
+      color: #128f76;
+}
+
 .navbar-container{
   display:inline-block;
 }
