@@ -1,0 +1,130 @@
+.w-1024{
+  width: 1024px;
+}
+.container{
+  margin: 0 auto;
+  padding: 0 46px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header .container
+{
+    height: 64px;
+    display: flex;
+}
+.logo-img{
+  width: 134px;
+  height: 24.37px;
+}
+
+.links{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.header-li{
+  display: inline-block;
+  padding: 0 12px;
+}
+
+.header-a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  text-shadow: 0 0 0 black;
+}
+.user-panel{
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.user-info{
+  display: inline-block;
+  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+.login{
+  font-weight: 400;
+  font-size: 14px;
+  text-shadow: 0 0 0 black;
+}
+
+.e-mail{
+  font-weight: 400;
+  color: gray;
+    font-size: 12px;
+}
+
+.user-img{
+  width: 40px;
+  border-radius: 50%;
+  display:inline-block;
+  padding: 0 14px;
+}
+
+.signout-img{
+  width: 25px;
+  vertical-align: middle;
+}
+
+.section-one{
+ background: url(../imgs/bg-1.jpg) left top no-repeat /cover;
+ padding-top: 134px;
+ padding-bottom: 160px;
+ box-sizing: border-box;
+}
+
+.w-49{
+    width: 49%;
+}
+
+.btn-orange{
+  box-sizing: border-box;
+  display: inline-block;
+  background: #ef6c00;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:700;
+  font-size: 20px;
+  width: 290px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.btn-orange:hover{
+  background-color: #fc831f;
+}
+
+.btn-text{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:700;
+  font-size: 22px;
+  color: #ef6c00;
+  text-decoration: none;
+}
+
+.btn-text:hover{
+  color: #fc831f;
+}
+
+.aboutme{
+  padding: 134px 0;
+}
+
+.aboutitems{
+  display: flex;
+}
+
+.abouttext{
+  margin-left: 30px;
+  margin-top: 20px;
+}
