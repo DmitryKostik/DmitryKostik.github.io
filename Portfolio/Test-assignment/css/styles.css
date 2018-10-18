@@ -117,7 +117,7 @@ header .container
 }
 
 .aboutme{
-  padding: 134px 0;
+  padding: 119px 0;
 }
 
 .aboutitems{
@@ -127,4 +127,29 @@ header .container
 .abouttext{
   margin-left: 30px;
   margin-top: 20px;
+}
+
+.about{
+  padding-top: 140px;
+}
+
+.languages{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.language{
+  width: 31%;
+}
+
+.language img, .language-c img{
+  width: 98px;
+  padding-bottom: 20px;
+}
+
+.requirements{
+  background: url(../imgs/bg-2.jpg) left top no-repeat /cover;
+  box-sizing: border-box;
+  padding: 135px 0;
 }
