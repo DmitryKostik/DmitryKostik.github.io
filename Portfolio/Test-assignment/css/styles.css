@@ -153,3 +153,47 @@ header .container
   box-sizing: border-box;
   padding: 135px 0;
 }
+
+.requirements-items{
+  display: flex;
+  margin-top: 14px;
+}
+
+.requirements p{
+  margin-right: 50px;
+}
+
+.users{
+  box-sizing: border-box;
+  padding: 135px 0;
+}
+
+footer {
+  background-color: rgb(40, 53, 147);
+
+}
+
+.links-footer{
+  display: inline-block;
+  margin: 0 auto;
+  float: right;
+}
+
+.footer-li{
+  display: inline-block;
+  padding-left: 26px;
+}
+
+.footer-a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  text-shadow: 0 0 0 black;
+  line-height: 1.375;
+}
+
+.upper-container{
+  padding: 30px 0;
+}

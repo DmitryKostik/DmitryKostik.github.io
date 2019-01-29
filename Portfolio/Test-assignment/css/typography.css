@@ -12,10 +12,19 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.375;
   color: #585757;
   padding-bottom: 21px;
   margin-left: 3px;
+}
+
+.c-white{
+  color: white;
+}
+.c-black{
+  color: black;
+  text-align: center;
+  font-size: 18px;
 }
 
 .p3{
